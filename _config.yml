@@ -14,19 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Arren Glover
-email: arrenDOTgloverATgmailDOTcom
+logo: /assets/img/arrenandicub.jpg
+#email: arrenDOTgloverATgmailDOTcom
 description: >- # this means to ignore newlines until "baseurl:"
   Computer vision for real robots that run in real-time. I'm a big fan of event-cameras. 
   I've working in Australia and Italy, developing perception for mobile robots and humanoid robots. 
   My passion is algorithms that actually work on-line outside of the lab.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  arrenglover
+#github_username:  arrenglover
 
 # Build settings
-markdown: kramdown
-theme: minima
+#markdown: kramdown
+#theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 #plugins:
 #  - jekyll-feed
 
