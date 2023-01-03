@@ -15,19 +15,31 @@
 # in the templates via {{ site.myvariable }}.
 title: Arren Glover
 logo: /assets/img/arrenandicub.jpg
-#email: arrenDOTgloverATgmailDOTcom
+email: arrenDOTgloverATgmailDOTcom
+github_logo: /assets/img/github.png
+scholar_url: https://scholar.google.com/citations?user=GGeia84AAAAJ&hl=en
+scholar_logo: /assets/img/scholar.png
+linkedin_url: https://www.linkedin.com/in/arren-glover
+linkedin_logo: /assets/img/lin.png
+cv_url: https://www.overleaf.com/read/yvtmxcqbbjsz
+overleaf_logo: /assets/img/overleaf.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer vision for real robots that run in real-time. I'm a big fan of event-cameras. 
-  I've working in Australia and Italy, developing perception for mobile robots and humanoid robots. 
-  My passion is algorithms that actually work on-line outside of the lab.
+  Real-time Computer vision for real-robots.<p>
+  I'm also a big fan of event-cameras.<p>
+  I've worked in Australia and Italy, developing perception for both mobile and humanoid robots. 
+  My passion is algorithms and code implementations that actually work on-line on robots that operate in real-world conditions.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  arrenglover
 
+
 # Build settings
 #markdown: kramdown
 #theme: minima
+github:
+  is_project_page: false
+  is_user_page: true
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
