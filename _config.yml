@@ -33,6 +33,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 #twitter_username: jekyllrb
 #github_username:  arrenglover
 
+position: >-
+  I currently hold a researcher position at the Italian Institute of Technology.
+position_url: https://edpr.iit.it/
+position_logo: /assets/img/IIT-EDR-logo-t1.png
+
 
 # Build settings
 #markdown: kramdown
