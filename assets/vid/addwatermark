@@ -1,4 +1,7 @@
 ffmpeg -i inputClip.mp4 -vf "drawtext=text='© arrenglover.github.io':x=(1100-text_w):y=(600-text_h):fontsize=32:fontcolor=black:box=1:boxcolor=white@0.5: boxborderw=5" -c:a copy output.mp4
 
+ffmpeg -i ICRA23_1392_VI_i.mp4 -ss 5 -vc h264 -vf scale=1280:720 -crf 30 -r 24 luv6DOF.mp4
 
 ffmpeg -i test.mp4 -i watermark.png -filter_complex "overlay=10:10" test1.mp4
+
+ffmpeg -i demo-6DOF-300Hz.mp4 -ss 0 -vc h264 -vf scale=1280:-1,"drawtext=text='© arrenglover.github.io':x=(50+text_w):y=(50+text_h):fontsize=32:fontcolor=black:box=1:boxcolor=white@0.5: boxborderw=5" -crf 30 -r 24 -an luv6DOF.mp4
