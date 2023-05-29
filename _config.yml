@@ -24,7 +24,7 @@ linkedin_logo: /assets/img/lin.png
 cv_url: https://www.overleaf.com/read/yvtmxcqbbjsz
 overleaf_logo: /assets/img/overleaf.png
 description: >- # this means to ignore newlines until "baseurl:"
-  I want to improve robots with low-latency vision using event-cameras. Real-time algorithms with closed-loop control for mobile and humanoid robots.<p>
+  I want to improve robots with low-latency vision using event-cameras. Real-time algorithms with closed-loop control and navigation for mobile and humanoid robots.<p>
   I have experience with 6-DoF object tracking, human pose estimation, 6-DoF SLAM, feature tracking, visual-inertial integration, appearance-based SLAM, robots with language models, and developmental algorithms.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
